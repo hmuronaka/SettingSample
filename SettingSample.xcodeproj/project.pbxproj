@@ -21,6 +21,16 @@
 		9A8B2A0F175CAB71002C8EC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8B29F0175CAB70002C8EC6 /* Foundation.framework */; };
 		9A8B2A17175CAB71002C8EC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A8B2A15175CAB71002C8EC6 /* InfoPlist.strings */; };
 		9A8B2A1A175CAB71002C8EC6 /* SettingSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A19175CAB71002C8EC6 /* SettingSampleTests.m */; };
+		9A8B2A2B175D45FF002C8EC6 /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A2A175D45FF002C8EC6 /* Setting.m */; };
+		9A8B2A2E175D4761002C8EC6 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A2D175D4761002C8EC6 /* SettingController.m */; };
+		9A8B2A31175D4C21002C8EC6 /* SwitchSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A30175D4C21002C8EC6 /* SwitchSettingController.m */; };
+		9A8B2A34175D67C1002C8EC6 /* SettingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A33175D67C1002C8EC6 /* SettingList.m */; };
+		9A8B2A3B175D95A1002C8EC6 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A39175D95A1002C8EC6 /* SettingViewController.m */; };
+		9A8B2A3C175D95A1002C8EC6 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8B2A3A175D95A1002C8EC6 /* SettingViewController.xib */; };
+		9A8B2A42175D9D72002C8EC6 /* SelectSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A41175D9D72002C8EC6 /* SelectSettingController.m */; };
+		9A8B2A4517615193002C8EC6 /* SettingCongrollerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A4417615193002C8EC6 /* SettingCongrollerFactory.m */; };
+		9A8B2A48176295DB002C8EC6 /* SettingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A47176295DB002C8EC6 /* SettingTest.m */; };
+		9A8B2A4B1762A0CC002C8EC6 /* SettingControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A4A1762A0CC002C8EC6 /* SettingControllerTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,25 @@
 		9A8B2A16175CAB71002C8EC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A8B2A18175CAB71002C8EC6 /* SettingSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingSampleTests.h; sourceTree = "<group>"; };
 		9A8B2A19175CAB71002C8EC6 /* SettingSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingSampleTests.m; sourceTree = "<group>"; };
+		9A8B2A29175D45FF002C8EC6 /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		9A8B2A2A175D45FF002C8EC6 /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
+		9A8B2A2C175D4761002C8EC6 /* SettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
+		9A8B2A2D175D4761002C8EC6 /* SettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
+		9A8B2A2F175D4C21002C8EC6 /* SwitchSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchSettingController.h; sourceTree = "<group>"; };
+		9A8B2A30175D4C21002C8EC6 /* SwitchSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchSettingController.m; sourceTree = "<group>"; };
+		9A8B2A32175D67C1002C8EC6 /* SettingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingList.h; sourceTree = "<group>"; };
+		9A8B2A33175D67C1002C8EC6 /* SettingList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingList.m; sourceTree = "<group>"; };
+		9A8B2A38175D95A1002C8EC6 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		9A8B2A39175D95A1002C8EC6 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		9A8B2A3A175D95A1002C8EC6 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		9A8B2A40175D9D72002C8EC6 /* SelectSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSettingController.h; sourceTree = "<group>"; };
+		9A8B2A41175D9D72002C8EC6 /* SelectSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectSettingController.m; sourceTree = "<group>"; };
+		9A8B2A4317615192002C8EC6 /* SettingCongrollerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCongrollerFactory.h; sourceTree = "<group>"; };
+		9A8B2A4417615193002C8EC6 /* SettingCongrollerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingCongrollerFactory.m; sourceTree = "<group>"; };
+		9A8B2A46176295DB002C8EC6 /* SettingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTest.h; sourceTree = "<group>"; };
+		9A8B2A47176295DB002C8EC6 /* SettingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTest.m; sourceTree = "<group>"; };
+		9A8B2A491762A0CC002C8EC6 /* SettingControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingControllerTest.h; sourceTree = "<group>"; };
+		9A8B2A4A1762A0CC002C8EC6 /* SettingControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingControllerTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +111,21 @@
 		9A8B29E2175CAB70002C8EC6 = {
 			isa = PBXGroup;
 			children = (
+				9A8B2A38175D95A1002C8EC6 /* SettingViewController.h */,
+				9A8B2A39175D95A1002C8EC6 /* SettingViewController.m */,
+				9A8B2A3A175D95A1002C8EC6 /* SettingViewController.xib */,
+				9A8B2A2F175D4C21002C8EC6 /* SwitchSettingController.h */,
+				9A8B2A30175D4C21002C8EC6 /* SwitchSettingController.m */,
+				9A8B2A32175D67C1002C8EC6 /* SettingList.h */,
+				9A8B2A33175D67C1002C8EC6 /* SettingList.m */,
+				9A8B2A2C175D4761002C8EC6 /* SettingController.h */,
+				9A8B2A2D175D4761002C8EC6 /* SettingController.m */,
+				9A8B2A40175D9D72002C8EC6 /* SelectSettingController.h */,
+				9A8B2A41175D9D72002C8EC6 /* SelectSettingController.m */,
+				9A8B2A4317615192002C8EC6 /* SettingCongrollerFactory.h */,
+				9A8B2A4417615193002C8EC6 /* SettingCongrollerFactory.m */,
+				9A8B2A29175D45FF002C8EC6 /* Setting.h */,
+				9A8B2A2A175D45FF002C8EC6 /* Setting.m */,
 				9A8B29F4175CAB70002C8EC6 /* SettingSample */,
 				9A8B2A12175CAB71002C8EC6 /* SettingSampleTests */,
 				9A8B29ED175CAB70002C8EC6 /* Frameworks */,
@@ -139,6 +183,10 @@
 				9A8B2A18175CAB71002C8EC6 /* SettingSampleTests.h */,
 				9A8B2A19175CAB71002C8EC6 /* SettingSampleTests.m */,
 				9A8B2A13175CAB71002C8EC6 /* Supporting Files */,
+				9A8B2A46176295DB002C8EC6 /* SettingTest.h */,
+				9A8B2A47176295DB002C8EC6 /* SettingTest.m */,
+				9A8B2A491762A0CC002C8EC6 /* SettingControllerTest.h */,
+				9A8B2A4A1762A0CC002C8EC6 /* SettingControllerTest.m */,
 			);
 			path = SettingSampleTests;
 			sourceTree = "<group>";
@@ -227,6 +275,7 @@
 				9A8B2A01175CAB70002C8EC6 /* Default.png in Resources */,
 				9A8B2A03175CAB71002C8EC6 /* Default@2x.png in Resources */,
 				9A8B2A05175CAB71002C8EC6 /* Default-568h@2x.png in Resources */,
+				9A8B2A3C175D95A1002C8EC6 /* SettingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +312,13 @@
 			files = (
 				9A8B29FB175CAB70002C8EC6 /* main.m in Sources */,
 				9A8B29FF175CAB70002C8EC6 /* AppDelegate.m in Sources */,
+				9A8B2A2B175D45FF002C8EC6 /* Setting.m in Sources */,
+				9A8B2A2E175D4761002C8EC6 /* SettingController.m in Sources */,
+				9A8B2A31175D4C21002C8EC6 /* SwitchSettingController.m in Sources */,
+				9A8B2A34175D67C1002C8EC6 /* SettingList.m in Sources */,
+				9A8B2A3B175D95A1002C8EC6 /* SettingViewController.m in Sources */,
+				9A8B2A42175D9D72002C8EC6 /* SelectSettingController.m in Sources */,
+				9A8B2A4517615193002C8EC6 /* SettingCongrollerFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +327,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8B2A1A175CAB71002C8EC6 /* SettingSampleTests.m in Sources */,
+				9A8B2A48176295DB002C8EC6 /* SettingTest.m in Sources */,
+				9A8B2A4B1762A0CC002C8EC6 /* SettingControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +493,7 @@
 				9A8B2A1F175CAB71002C8EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A8B2A20175CAB71002C8EC6 /* Build configuration list for PBXNativeTarget "SettingSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +502,7 @@
 				9A8B2A22175CAB71002C8EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -24,9 +24,9 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in SettingSampleTests");
-}
+//- (void)testExample
+//{
+//    STFail(@"Unit tests are not implemented yet in SettingSampleTests");
+//}
 
 @end
