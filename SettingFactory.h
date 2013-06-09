@@ -10,9 +10,10 @@
 
 @class Setting;
 
-@interface SettingCongrollerFactory : NSObject
+@interface SettingFactory : NSObject
 
 -(Setting*)createBoolSetting:(NSString *)name tag:(NSInteger)tag;
 -(Setting*)createSelectSetting:(NSString*)name tag:(NSInteger)tag values:(NSArray*)values;
+-(Setting*)createNumberSetting:(NSString*)name tag:(NSInteger)tag minValue:(NSInteger)minValue maxValue:(NSInteger)maxValue;
 
 @end

@@ -9,16 +9,18 @@
 #import <Foundation/Foundation.h>
 
 @protocol SettingControllerDelegate;
+@class Setting;
 
 @interface SettingController : NSObject
 
 @property(nonatomic, strong, readonly) NSString* typeName;
+
 @property(nonatomic, strong, readonly) NSString* cellIdentifier;
 @property(nonatomic, weak) id<SettingControllerDelegate> delegate;
 
 -(id)initWithTypeName:(NSString*)typeName;
 -(UITableViewCell*)tableView:(UITableView*)tableView makeCell:(NSString*)name indexPath:(NSIndexPath*)indexPath tag:(NSInteger)tag value:(NSObject*)value;
--(void)tableView:(UITableView*)tableView selectedIndexPath:(NSIndexPath*)indexPath;
+-(void)tableView:(UITableView*)tableView setting:(Setting*)setting selectedIndexPath:(NSIndexPath*)indexPath;
 -(BOOL)hasSection;
 -(NSInteger)numberOfRow;
 

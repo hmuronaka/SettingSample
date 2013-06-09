@@ -6,12 +6,13 @@
 //  Copyright (c) 2013年 H.Mu. All rights reserved.
 //
 
-#import "SettingCongrollerFactory.h"
+#import "SettingFactory.h"
 #import "SwitchSettingController.h"
 #import "SelectSettingController.h"
+#import "NumberSettingController.h"
 #import "Setting.h"
 
-@implementation SettingCongrollerFactory
+@implementation SettingFactory
 
 -(Setting*)createBoolSetting:(NSString *)name tag:(NSInteger)tag
 {
@@ -26,6 +27,14 @@
     Setting* setting = [[Setting alloc] initWithName:name tag:tag controller:controller];
     return setting;
 }
+
+-(Setting*)createNumberSetting:(NSString*)name tag:(NSInteger)tag minValue:(NSInteger)minValue maxValue:(NSInteger)maxValue
+{
+    NumberSettingController* controller = [[NumberSettingController alloc] initWithMin:minValue max:maxValue];
+    Setting* setting = [[Setting alloc] initWithName:name tag:tag controller:controller];
+    return setting;
+}
+
 
 
 @end

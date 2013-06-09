@@ -37,7 +37,7 @@
     return nil;
 }
 
--(void)tableView:(UITableView *)tableView selectedIndexPath:(NSIndexPath *)indexPath
+-(void)tableView:(UITableView*)tableView setting:(Setting*)setting selectedIndexPath:(NSIndexPath*)indexPath
 {
     
 }

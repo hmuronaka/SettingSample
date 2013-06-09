@@ -28,9 +28,12 @@
 		9A8B2A3B175D95A1002C8EC6 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A39175D95A1002C8EC6 /* SettingViewController.m */; };
 		9A8B2A3C175D95A1002C8EC6 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8B2A3A175D95A1002C8EC6 /* SettingViewController.xib */; };
 		9A8B2A42175D9D72002C8EC6 /* SelectSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A41175D9D72002C8EC6 /* SelectSettingController.m */; };
-		9A8B2A4517615193002C8EC6 /* SettingCongrollerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A4417615193002C8EC6 /* SettingCongrollerFactory.m */; };
+		9A8B2A4517615193002C8EC6 /* SettingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A4417615193002C8EC6 /* SettingFactory.m */; };
 		9A8B2A48176295DB002C8EC6 /* SettingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A47176295DB002C8EC6 /* SettingTest.m */; };
 		9A8B2A4B1762A0CC002C8EC6 /* SettingControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A4A1762A0CC002C8EC6 /* SettingControllerTest.m */; };
+		9A8B2A4E17630774002C8EC6 /* NumberSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A4D17630774002C8EC6 /* NumberSettingController.m */; };
+		9A8B2A5217630E96002C8EC6 /* NumberPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2A5017630E96002C8EC6 /* NumberPickerViewController.m */; };
+		9A8B2A5317630E96002C8EC6 /* NumberPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8B2A5117630E96002C8EC6 /* NumberPickerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,12 +79,17 @@
 		9A8B2A3A175D95A1002C8EC6 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
 		9A8B2A40175D9D72002C8EC6 /* SelectSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSettingController.h; sourceTree = "<group>"; };
 		9A8B2A41175D9D72002C8EC6 /* SelectSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectSettingController.m; sourceTree = "<group>"; };
-		9A8B2A4317615192002C8EC6 /* SettingCongrollerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCongrollerFactory.h; sourceTree = "<group>"; };
-		9A8B2A4417615193002C8EC6 /* SettingCongrollerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingCongrollerFactory.m; sourceTree = "<group>"; };
+		9A8B2A4317615192002C8EC6 /* SettingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingFactory.h; sourceTree = "<group>"; };
+		9A8B2A4417615193002C8EC6 /* SettingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingFactory.m; sourceTree = "<group>"; };
 		9A8B2A46176295DB002C8EC6 /* SettingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTest.h; sourceTree = "<group>"; };
 		9A8B2A47176295DB002C8EC6 /* SettingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTest.m; sourceTree = "<group>"; };
 		9A8B2A491762A0CC002C8EC6 /* SettingControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingControllerTest.h; sourceTree = "<group>"; };
 		9A8B2A4A1762A0CC002C8EC6 /* SettingControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingControllerTest.m; sourceTree = "<group>"; };
+		9A8B2A4C17630774002C8EC6 /* NumberSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberSettingController.h; sourceTree = "<group>"; };
+		9A8B2A4D17630774002C8EC6 /* NumberSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberSettingController.m; sourceTree = "<group>"; };
+		9A8B2A4F17630E95002C8EC6 /* NumberPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumberPickerViewController.h; path = ../MusicPlayerForStudy3/MusicPlayerForStudy3/NumberPickerViewController.h; sourceTree = "<group>"; };
+		9A8B2A5017630E96002C8EC6 /* NumberPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NumberPickerViewController.m; path = ../MusicPlayerForStudy3/MusicPlayerForStudy3/NumberPickerViewController.m; sourceTree = "<group>"; };
+		9A8B2A5117630E96002C8EC6 /* NumberPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NumberPickerViewController.xib; path = ../MusicPlayerForStudy3/MusicPlayerForStudy3/NumberPickerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,9 @@
 		9A8B29E2175CAB70002C8EC6 = {
 			isa = PBXGroup;
 			children = (
+				9A8B2A4F17630E95002C8EC6 /* NumberPickerViewController.h */,
+				9A8B2A5017630E96002C8EC6 /* NumberPickerViewController.m */,
+				9A8B2A5117630E96002C8EC6 /* NumberPickerViewController.xib */,
 				9A8B2A38175D95A1002C8EC6 /* SettingViewController.h */,
 				9A8B2A39175D95A1002C8EC6 /* SettingViewController.m */,
 				9A8B2A3A175D95A1002C8EC6 /* SettingViewController.xib */,
@@ -122,8 +133,10 @@
 				9A8B2A2D175D4761002C8EC6 /* SettingController.m */,
 				9A8B2A40175D9D72002C8EC6 /* SelectSettingController.h */,
 				9A8B2A41175D9D72002C8EC6 /* SelectSettingController.m */,
-				9A8B2A4317615192002C8EC6 /* SettingCongrollerFactory.h */,
-				9A8B2A4417615193002C8EC6 /* SettingCongrollerFactory.m */,
+				9A8B2A4C17630774002C8EC6 /* NumberSettingController.h */,
+				9A8B2A4D17630774002C8EC6 /* NumberSettingController.m */,
+				9A8B2A4317615192002C8EC6 /* SettingFactory.h */,
+				9A8B2A4417615193002C8EC6 /* SettingFactory.m */,
 				9A8B2A29175D45FF002C8EC6 /* Setting.h */,
 				9A8B2A2A175D45FF002C8EC6 /* Setting.m */,
 				9A8B29F4175CAB70002C8EC6 /* SettingSample */,
@@ -276,6 +289,7 @@
 				9A8B2A03175CAB71002C8EC6 /* Default@2x.png in Resources */,
 				9A8B2A05175CAB71002C8EC6 /* Default-568h@2x.png in Resources */,
 				9A8B2A3C175D95A1002C8EC6 /* SettingViewController.xib in Resources */,
+				9A8B2A5317630E96002C8EC6 /* NumberPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +332,9 @@
 				9A8B2A34175D67C1002C8EC6 /* SettingList.m in Sources */,
 				9A8B2A3B175D95A1002C8EC6 /* SettingViewController.m in Sources */,
 				9A8B2A42175D9D72002C8EC6 /* SelectSettingController.m in Sources */,
-				9A8B2A4517615193002C8EC6 /* SettingCongrollerFactory.m in Sources */,
+				9A8B2A4517615193002C8EC6 /* SettingFactory.m in Sources */,
+				9A8B2A4E17630774002C8EC6 /* NumberSettingController.m in Sources */,
+				9A8B2A5217630E96002C8EC6 /* NumberPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
 #import "SettingViewController.h"
 #import "SettingList.h"
 #import "SelectSettingController.h"
-#import "SettingCongrollerFactory.h"
+#import "SettingFactory.h"
 #import "Setting.h"
 
 @interface SettingViewController ()
@@ -27,7 +27,7 @@
         self.settingList = [[SettingList alloc] init];
         self.isChild = NO;
 
-        SettingCongrollerFactory* factory = [[SettingCongrollerFactory alloc] init];
+        SettingFactory* factory = [[SettingFactory alloc] init];
         NSInteger tag = 1;
         
         Setting* setting = [factory createBoolSetting:@"repeat" tag:tag++];
@@ -44,6 +44,10 @@
                     @"repeat",
                     nil]];
         [setting setValue:@"normal"];
+        [self.settingList addSetting:setting];
+        
+        setting = [factory createNumberSetting:@"counter" tag:tag++ minValue:1 maxValue:10];
+        setting.value = [NSNumber numberWithInt:5];
         [self.settingList addSetting:setting];
         
         setting = [factory createBoolSetting:@"sleep mode" tag:tag++];
@@ -101,7 +105,8 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     Setting* nowSetting = [self search:indexPath];
-    [nowSetting.controller tableView:tableView selectedIndexPath:indexPath];
+    // ここ要見直し
+    [nowSetting.controller tableView:tableView setting:nowSetting selectedIndexPath:indexPath];
 }
 
 -(IBAction)pressedCheck:(id)sender
