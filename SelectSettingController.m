@@ -7,6 +7,7 @@
 //
 
 #import "SelectSettingController.h"
+#import "Setting.h"
 
 @implementation SelectSettingController
 
@@ -85,6 +86,12 @@
 {
     return self.valueList.count;
 }
+
+-(NSString*)headerStringAtSetting:(Setting*)setting
+{
+    return setting.name;
+}
+
 
 
 @end

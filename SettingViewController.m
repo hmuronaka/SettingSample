@@ -52,6 +52,11 @@
         
         setting = [factory createBoolSetting:@"sleep mode" tag:tag++];
         [self.settingList addSetting:setting];
+
+        setting = [factory createBoolSetting:@"sleepB mode" tag:tag++];
+        [self.settingList addSetting:setting];
+
+    
     }
     return self;
 }
@@ -83,6 +88,20 @@
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return [self.settingList numberOfSectionsInTableView];
+}
+
+-(NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    NSIndexPath* path = [NSIndexPath indexPathForRow:0 inSection:section];
+    Setting* setting = [self.settingList settingAtIndexPath:path];
+    if( setting.controller.hasSection )
+    {
+        return [setting.controller headerStringAtSetting:setting];
+    }
+    else
+    {
+        return nil;
+    }
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

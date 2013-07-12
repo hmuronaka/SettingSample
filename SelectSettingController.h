@@ -20,5 +20,6 @@
 -(void)tableView:(UITableView*)tableView setValue:(NSObject*)value toTag:(NSInteger)tag;
 -(BOOL)hasSection;
 -(void)tableView:(UITableView*)tableView setting:(Setting*)setting selectedIndexPath:(NSIndexPath*)indexPath;
+-(NSString*)headerStringAtSetting:(Setting*)setting;
 
 @end

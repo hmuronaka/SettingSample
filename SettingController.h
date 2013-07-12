@@ -23,6 +23,7 @@
 -(void)tableView:(UITableView*)tableView setting:(Setting*)setting selectedIndexPath:(NSIndexPath*)indexPath;
 -(BOOL)hasSection;
 -(NSInteger)numberOfRow;
+-(NSString*)headerStringAtSetting:(Setting*)setting;
 
 @end
 
